@@ -18,17 +18,19 @@
 		23C5CEBD1B28DCD60085E67E /* UZKFileInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65FF1A40E31900685B6D /* UZKFileInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23C5CEBE1B28DCD60085E67E /* UnzipKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65A31A40AEAE00685B6D /* UnzipKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23C5CEBF1B28DCD60085E67E /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65C81A40C44300685B6D /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23C5CEC01B28DCD60085E67E /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA66031A435D8200685B6D /* crypt.h */; };
-		23C5CEC11B28DCD60085E67E /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65C41A40C44300685B6D /* ioapi.h */; };
-		23C5CEC21B28DCD60085E67E /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65C61A40C44300685B6D /* mztools.h */; };
-		23C5CEC31B28DCD60085E67E /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65CA1A40C44300685B6D /* zip.h */; };
+		23C5CEC01B28DCD60085E67E /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA66031A435D8200685B6D /* crypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23C5CEC11B28DCD60085E67E /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65C41A40C44300685B6D /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23C5CEC21B28DCD60085E67E /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65C61A40C44300685B6D /* mztools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23C5CEC31B28DCD60085E67E /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65CA1A40C44300685B6D /* zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23C5CECB1B28DDD00085E67E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C5CECA1B28DDD00085E67E /* CoreGraphics.framework */; };
 		23C5CECD1B28DDE20085E67E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C5CECC1B28DDE20085E67E /* Foundation.framework */; };
+		23C5CED21B28E62B0085E67E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C5CED11B28E62B0085E67E /* Foundation.framework */; };
+		23C5CED41B28E6320085E67E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C5CED31B28E6320085E67E /* CoreGraphics.framework */; };
 		966A971C1A4A1F2A003597AA /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65C81A40C44300685B6D /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		966A971D1A4A2348003597AA /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65CA1A40C44300685B6D /* zip.h */; };
-		966A971E1A4A234C003597AA /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65C61A40C44300685B6D /* mztools.h */; };
-		966A971F1A4A2351003597AA /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65C41A40C44300685B6D /* ioapi.h */; };
-		966A97201A4A2354003597AA /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA66031A435D8200685B6D /* crypt.h */; };
+		966A971D1A4A2348003597AA /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65CA1A40C44300685B6D /* zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966A971E1A4A234C003597AA /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65C61A40C44300685B6D /* mztools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966A971F1A4A2351003597AA /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65C41A40C44300685B6D /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966A97201A4A2354003597AA /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA66031A435D8200685B6D /* crypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96EA65A41A40AEAE00685B6D /* UnzipKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EA65A31A40AEAE00685B6D /* UnzipKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96EA65AA1A40AEAE00685B6D /* UnzipKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EA659E1A40AEAE00685B6D /* UnzipKit.framework */; };
 		96EA65B11A40AEAE00685B6D /* UZKArchiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA65B01A40AEAE00685B6D /* UZKArchiveTests.m */; };
@@ -60,6 +62,8 @@
 		23C5CEC91B28DCD60085E67E /* UnzipKit.iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UnzipKit.iOS.plist; path = /Users/aventurella/github/UnzipKit/UnzipKit.iOS.plist; sourceTree = "<absolute>"; };
 		23C5CECA1B28DDD00085E67E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		23C5CECC1B28DDE20085E67E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		23C5CED11B28E62B0085E67E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23C5CED31B28E6320085E67E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		96EA659E1A40AEAE00685B6D /* UnzipKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnzipKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EA65A21A40AEAE00685B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96EA65A31A40AEAE00685B6D /* UnzipKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnzipKit.h; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C5CED41B28E6320085E67E /* CoreGraphics.framework in Frameworks */,
+				23C5CED21B28E62B0085E67E /* Foundation.framework in Frameworks */,
 				96EA65F81A40C88800685B6D /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +210,8 @@
 		96EA65F61A40C86200685B6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23C5CED31B28E6320085E67E /* CoreGraphics.framework */,
+				23C5CED11B28E62B0085E67E /* Foundation.framework */,
 				23C5CECC1B28DDE20085E67E /* Foundation.framework */,
 				23C5CECA1B28DDD00085E67E /* CoreGraphics.framework */,
 				96EA65F71A40C88800685B6D /* libz.dylib */,
@@ -222,8 +230,8 @@
 				23C5CEBD1B28DCD60085E67E /* UZKFileInfo.h in Headers */,
 				23C5CEBE1B28DCD60085E67E /* UnzipKit.h in Headers */,
 				23C5CEBF1B28DCD60085E67E /* unzip.h in Headers */,
-				23C5CEC01B28DCD60085E67E /* crypt.h in Headers */,
 				23C5CEC11B28DCD60085E67E /* ioapi.h in Headers */,
+				23C5CEC01B28DCD60085E67E /* crypt.h in Headers */,
 				23C5CEC21B28DCD60085E67E /* mztools.h in Headers */,
 				23C5CEC31B28DCD60085E67E /* zip.h in Headers */,
 			);
