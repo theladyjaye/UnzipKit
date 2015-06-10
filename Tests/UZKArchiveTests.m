@@ -7,6 +7,7 @@
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 #import <DTPerformanceSession/DTSignalFlag.h>
+#import "ioapi.h"
 
 @import UnzipKit;
 
