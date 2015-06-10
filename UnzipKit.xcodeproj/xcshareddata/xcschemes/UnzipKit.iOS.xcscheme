@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "23C5CEB11B28DCD60085E67E"
-               BuildableName = "UnzipKit copy.framework"
-               BlueprintName = "UnzipKit.iOS"
+               BuildableName = "UnzipKit.framework"
+               BlueprintName = "UnzipKit (iOS)"
                ReferencedContainer = "container:UnzipKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23C5CEB11B28DCD60085E67E"
-            BuildableName = "UnzipKit copy.framework"
-            BlueprintName = "UnzipKit.iOS"
+            BuildableName = "UnzipKit.framework"
+            BlueprintName = "UnzipKit (iOS)"
             ReferencedContainer = "container:UnzipKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,8 +61,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23C5CEB11B28DCD60085E67E"
-            BuildableName = "UnzipKit copy.framework"
-            BlueprintName = "UnzipKit.iOS"
+            BuildableName = "UnzipKit.framework"
+            BlueprintName = "UnzipKit (iOS)"
             ReferencedContainer = "container:UnzipKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

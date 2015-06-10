@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -247,9 +247,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		23C5CEB11B28DCD60085E67E /* UnzipKit.iOS */ = {
+		23C5CEB11B28DCD60085E67E /* UnzipKit (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23C5CEC51B28DCD60085E67E /* Build configuration list for PBXNativeTarget "UnzipKit.iOS" */;
+			buildConfigurationList = 23C5CEC51B28DCD60085E67E /* Build configuration list for PBXNativeTarget "UnzipKit (iOS)" */;
 			buildPhases = (
 				23C5CEB21B28DCD60085E67E /* Sources */,
 				23C5CEB91B28DCD60085E67E /* Frameworks */,
@@ -260,14 +260,14 @@
 			);
 			dependencies = (
 			);
-			name = UnzipKit.iOS;
+			name = "UnzipKit (iOS)";
 			productName = UnzipKit;
 			productReference = 23C5CEC81B28DCD60085E67E /* UnzipKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		96EA659D1A40AEAE00685B6D /* UnzipKit.Mac */ = {
+		96EA659D1A40AEAE00685B6D /* UnzipKit (Mac) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96EA65B41A40AEAE00685B6D /* Build configuration list for PBXNativeTarget "UnzipKit.Mac" */;
+			buildConfigurationList = 96EA65B41A40AEAE00685B6D /* Build configuration list for PBXNativeTarget "UnzipKit (Mac)" */;
 			buildPhases = (
 				96EA65991A40AEAE00685B6D /* Sources */,
 				96EA659A1A40AEAE00685B6D /* Frameworks */,
@@ -278,7 +278,7 @@
 			);
 			dependencies = (
 			);
-			name = UnzipKit.Mac;
+			name = "UnzipKit (Mac)";
 			productName = UnzipKit;
 			productReference = 96EA659E1A40AEAE00685B6D /* UnzipKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -319,7 +319,7 @@
 				};
 			};
 			buildConfigurationList = 96EA65981A40AEAE00685B6D /* Build configuration list for PBXProject "UnzipKit" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -330,9 +330,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96EA659D1A40AEAE00685B6D /* UnzipKit.Mac */,
+				96EA659D1A40AEAE00685B6D /* UnzipKit (Mac) */,
 				96EA65A81A40AEAE00685B6D /* UnzipKitTests */,
-				23C5CEB11B28DCD60085E67E /* UnzipKit.iOS */,
+				23C5CEB11B28DCD60085E67E /* UnzipKit (iOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -402,7 +402,7 @@
 /* Begin PBXTargetDependency section */
 		96EA65AC1A40AEAE00685B6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96EA659D1A40AEAE00685B6D /* UnzipKit.Mac */;
+			target = 96EA659D1A40AEAE00685B6D /* UnzipKit (Mac) */;
 			targetProxy = 96EA65AB1A40AEAE00685B6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -615,7 +615,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23C5CEC51B28DCD60085E67E /* Build configuration list for PBXNativeTarget "UnzipKit.iOS" */ = {
+		23C5CEC51B28DCD60085E67E /* Build configuration list for PBXNativeTarget "UnzipKit (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23C5CEC61B28DCD60085E67E /* Debug */,
@@ -633,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96EA65B41A40AEAE00685B6D /* Build configuration list for PBXNativeTarget "UnzipKit.Mac" */ = {
+		96EA65B41A40AEAE00685B6D /* Build configuration list for PBXNativeTarget "UnzipKit (Mac)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96EA65B51A40AEAE00685B6D /* Debug */,
