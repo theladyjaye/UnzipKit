@@ -1,0 +1,10 @@
+build
+*.mode*
+*.pbxuser
+*.perspective*
+.DS_Store
+*.swp
+**/*.xccheckout
+**/xcuserdata/*
+
+UnzipKitDemo/Pods/*
