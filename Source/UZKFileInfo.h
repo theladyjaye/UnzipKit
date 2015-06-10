@@ -6,7 +6,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "unzip.h"
+//#import "unzip.h"
+typedef struct unz_file_info_s unz_file_info;
 
 @class UZKArchive;
 

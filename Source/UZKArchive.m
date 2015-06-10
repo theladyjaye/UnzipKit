@@ -7,6 +7,7 @@
 #import "UZKArchive.h"
 
 #import "zip.h"
+#import "unzip.h"
 
 #import "UZKFileInfo.h"
 

@@ -5,7 +5,7 @@
 //
 
 #import "UZKFileInfo.h"
-
+#import "unzip.h"
 
 @implementation UZKFileInfo
 
